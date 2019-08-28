@@ -16,12 +16,11 @@ class in chat module. Make sure you cover all there basic actions.
 #### Complete WebSocketChatServer
 Implemented all TODOs inside WebSocketChatServer follow each method description.
 
-### Run the application with command
-mvn install -Dwebdriver.chrome.driver={PATH TO CHROME DRIVER} 
-
 ### Build application
+mvn install -Dmaven.test.skip=true
+
+### Run the application with command
 mvn spring-boot:run
 
-#### Run tests
+#### Run the functional tests
 mvn test -Dwebdriver.chrome.driver={PATH TO CHROME DRIVER}
-
