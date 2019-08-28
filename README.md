@@ -17,7 +17,7 @@ class in chat module. Make sure you cover all there basic actions.
 Implement all TODOs inside WebSocketChatServer follow each method description.
 
 ### Run the application with command
-mvn install; 
+mvn install -Dwebdriver.chrome.driver={PATH TO CHROME DRIVER} 
 
 ### Build application
 mvn spring-boot:run
