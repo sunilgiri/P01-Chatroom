@@ -1,5 +1,5 @@
 # Chat Room
-Chat room application implementation using WebSocket.
+Complete the chat room application implementation using WebSocket.
 
 ## Background
 WebSocket is a communication protocol that makes it possible to establish a two-way communication channel between a
@@ -13,13 +13,15 @@ class in chat module. Make sure you cover all there basic actions.
 2. CHAT
 3. LEAVE
 
-### Complete WebSocketChatServer
-Implemented all TODOs inside WebSocketChatServer follow each method description.
+#### Complete WebSocketChatServer
+Implement all TODOs inside WebSocketChatServer follow each method description.
 
-### Build, Run the application with command
-mvn install -Dwebdriver.chrome.driver={PATH TO CHROME DRIVER}
+### Run the application with command
+mvn install; 
+
+### Build application
 mvn spring-boot:run
 
-##Run tests
+#### Run tests
 mvn test -Dwebdriver.chrome.driver={PATH TO CHROME DRIVER}
 
